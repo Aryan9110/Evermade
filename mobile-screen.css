@@ -1,0 +1,188 @@
+    /* @media Query */
+    /* For media @320 to @500 */
+    @media (min-width: 300px) and (max-width: 560px) {
+
+        /* Mobile Screen */
+        /* Navigation Bar */
+        #navbar_container {
+            display: flex;
+            flex-direction: row;
+            height: 14vh;
+            background: #ffffff;
+            border: 1px solid rgb(255, 255, 255);
+            width: 100%;
+        }
+
+        /* Logo */
+        #logo {
+            width: 20vw;
+            margin-left: 42.5vw;
+            margin-top: -1vw;
+        }
+
+        #navbar ul {
+            display: flex;
+            flex-direction: row;
+            visibility: hidden;
+        }
+
+        /* Section */
+        /* Head */
+        .hero-section div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Heading */
+        .hero-section h1 {
+            font-size: 12vw;
+            margin-left: -15vw;
+            text-align: center;
+            padding-top: 20vh;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        /* Hero Img */
+        .hero-section img {
+            margin-top: 10vh;
+            margin-left: -5vw;
+            text-align: center;
+            width: 80vw;
+        }
+
+        /* My Profile Button */
+        .profile {
+            font-size: 5vw;
+            padding: 1vh 3vw;
+            font-family: 'PT Sans', sans-serif;
+            background: #f2542d;
+        }
+
+        /* main Content */
+        /* Picbry */
+        #picbry h1 {
+            margin-top: 15vh;
+            font-size: 10vw;
+            text-align: center;
+        }
+
+        #picbry h2 {
+            font-size: 6vw;
+            margin-top: 5vh;
+            text-align: center;
+        }
+
+        #picbry p {
+            font-size: 3vw;
+            margin-top: 5vh;
+            text-align: center;
+        }
+
+        /* Collage-1 */
+        .collage-1 {
+            display: flex;
+            margin-top: 5vh;
+            justify-content: center;
+        }
+
+        .collage-1 img {
+            margin: 1vw;
+            width: 20vw;
+            height: 25vh;
+        }
+
+        /* Arrows */
+        /* .collage-1 i{
+        font-size: 3vw;
+        align-self: center;
+        margin: 2vw;
+        cursor: pointer;
+        color: #696969;
+    } */
+
+        /* Footer */
+        #footer {
+            margin-top: 5vh;
+        }
+
+        #footer img {
+            margin: 5vh 1vw 0vh 0vw;
+            cursor: pointer;
+            width: 15vw;
+            margin-left: -10vw;
+        }
+
+        #footer h1 {
+            font-size: 2.3vw;
+            margin-left: -10vw;
+        }
+
+        /* Line */
+        .line1 {
+            border: 1.5px solid #5d5d5d;
+            margin-top: 2vh;
+            margin-right: 5vw;
+            margin-bottom: 5vh;
+            margin-left: -10vw;
+        }
+
+        /* Footer Content */
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+        }
+
+        .solution {
+            display: none;
+        }
+
+        .legal {
+            list-style: none;
+            text-align: center;
+            margin-right: 20vw;
+            margin-left: -10vw;
+        }
+
+        .company {
+            display: none;
+        }
+
+        .support {
+            list-style: none;
+            text-align: center;
+        }
+
+        .li {
+            font-size: 6vw;
+            font-weight: 900;
+        }
+
+        .tabs {
+            color: #909090;
+            font-size: 3vw;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .tabs li {
+            margin-top: 3vh;
+        }
+
+        /* line2 */
+        .line2 {
+            border: 1.5px solid #5d5d5d;
+            margin-top: 5vh;
+            margin-right: 5vw;
+            margin-bottom: 5vh;
+            margin-left: -10vw;
+        }
+
+        #footer p {
+            color: rgb(0, 0, 0);
+            font-weight: 900;
+            font-size: 3vw;
+            margin-bottom: 5vh;
+        }
+    }
