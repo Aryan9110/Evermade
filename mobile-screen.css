@@ -2,12 +2,17 @@
     /* For media @320 to @500 */
     @media (min-width: 300px) and (max-width: 560px) {
 
+        /* Google Fonts Links */
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Mulish&display=swap');
+
         /* Mobile Screen */
         /* Navigation Bar */
         #navbar_container {
             display: flex;
             flex-direction: row;
-            height: 14vh;
+            height: 12vh;
             background: #ffffff;
             border: 1px solid rgb(255, 255, 255);
             width: 100%;
@@ -79,16 +84,16 @@
         }
 
         /* Collage-1 */
-        .collage-1 {
-            display: flex;
-            margin-top: 5vh;
-            justify-content: center;
+        @media screen and (max-width: 900px) {
+            .carousel img {
+                width: calc(100% / 2);
+            }
         }
 
-        .collage-1 img {
-            margin: 1vw;
-            width: 20vw;
-            height: 25vh;
+        @media screen and (max-width: 550px) {
+            .carousel img {
+                width: 100%;
+            }
         }
 
         /* Arrows */
@@ -184,5 +189,78 @@
             font-weight: 900;
             font-size: 3vw;
             margin-bottom: 5vh;
+        }
+
+
+
+        /* Sign In CSS */
+        /* Container */
+        .container {
+            text-align: center;
+            margin-top: 5vh;
+        }
+
+        /* Logo */
+        .logo {
+            height: 10vw;
+        }
+
+        /* Sign n Text */
+        .sign-text {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 5.5vw;
+            font-weight: 900;
+        }
+
+        .form {
+            text-align: center;
+            margin-top: 7vh;
+        }
+        .form label{
+            justify-content: left;
+            margin-left: 15vw;
+            display: flex;
+        }
+        
+        #email{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3vw;
+            color: rgb(103, 103, 103);
+        }
+        
+        #pass{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3vw;
+            color: rgb(103, 103, 103);
+        }
+        #num{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3vw;
+            color: rgb(103, 103, 103);
+        }
+
+        .form input {
+            width: 70vw;
+            height: 5vh;
+            border-radius: 3px;
+            padding-left: 1vw;
+            border: 2px solid rgb(213, 213, 213);
+        }
+
+        button {
+            font-family: 'Mulish', sans-serif;
+            padding: 1.5vh;
+            font-size: 4vw;
+            width: 70vw;
+            background: rgb(58, 30, 196);
+            color: white;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background: rgb(72, 39, 239);
         }
     }
