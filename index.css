@@ -818,7 +818,9 @@ html {
         border-bottom-right-radius: 50px;
         border: none;
         background-color: #000000;
-        /* border-bottom-right-radius: 100px; */
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        background-color: #ededed;
     }
 
     /* Logo */
@@ -834,8 +836,12 @@ html {
         list-style: none;
     }
 
+
     #navbar ul a {
         color: rgb(255, 255, 255);
+
+    #navbar ul a{
+        color: rgb(0, 0, 0);
         font-size: 3vw;
         padding: 0vh 0vw 0vh 0vw;
         margin: 3vh 1.5vw 5vh 2vw;
@@ -1027,7 +1033,7 @@ html {
         font-weight: 900;
         margin-bottom: 5vh;
     }
-
+      
     /* Sing In Page */
     /* Container */
     .container {

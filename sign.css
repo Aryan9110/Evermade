@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Mulish&display=swap');
+
+/* Default */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+/* Logo */
+.logo{
+    height: 5vw;
+}
+
+/* Sign n Text */
+.sign-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+.form{
+    text-align: center;
+    margin-top: 7vh;    
+}
+
+.form label{
+    justify-content: left;
+    margin-left: 35vw;
+    display: flex;
+}
+
+#email{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(103, 103, 103);
+}
+
+#pass{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(103, 103, 103);
+}
+#num{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(103, 103, 103);
+}
+
+.form input{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 3px;
+    padding-left: 1vw;
+    border: 2px solid rgb(213, 213, 213);
+}
+
+button{
+    font-family: 'Mulish', sans-serif;
+    padding: 1.5vh;
+    font-size: 2vw;
+    width: 30vw;
+    background: rgb(58, 30, 196);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background: rgb(72, 39, 239);
+}
